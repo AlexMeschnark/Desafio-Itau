@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="twitter4j.TwitterException"/>
+    <fullyQualifiedTypeName name="twitter4j.Twitter"/>
+    <fullyQualifiedTypeName name="twitter4j.Query"/>
+    <fullyQualifiedTypeName name="twitter4j.QueryResult"/>
+    <fullyQualifiedTypeName name="twitter4j.TwitterFactory"/>
+</qualifiedTypeNameHistroy>

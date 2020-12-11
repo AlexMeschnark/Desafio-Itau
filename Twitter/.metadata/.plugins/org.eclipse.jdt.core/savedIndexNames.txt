@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\FREDERICO\eclipse-workspace\Twitter\.metadata\.plugins\org.eclipse.jdt.core
+2717772202.index
+3606763836.index
