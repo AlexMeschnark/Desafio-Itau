@@ -14,12 +14,13 @@ public class Timeline {
 
 	public void linhaDoTempo() throws TwitterException
 	{
-		ConfigurationBuilder cb = new ConfigurationBuilder(); //Cria builder para validação da API.
+		ConfigurationBuilder cb = new ConfigurationBuilder(); //Cria builder para validaÃ§Ã£o da API.
 		cb.setDebugEnabled(false)
-		.setOAuthConsumerKey("sSAqJJ3V8SH6pbXPxiuxjVHDU")
-		.setOAuthConsumerSecret("bCZrAExfLt0MKBqiBi2mmJZbtchofChaSChCsJh5MBEwQDLcuf")
-		.setOAuthAccessToken("3082605442-WTFKAnFrVXc1dL6Bk8hIb7jyFZXbBYEB3a79Tig")
-		.setOAuthAccessTokenSecret("suQqhyoFwSjfUvb2AA4ix1qrshLOSXZvdnUyC01eoZxrv");
+		.setDebugEnabled(true)
+                .setOAuthConsumerKey("*********")
+                .setOAuthConsumerSecret("*********")
+                .setOAuthAccessToken("*********")
+                .setOAuthAccessTokenSecret("*********");
 		
 
 		TwitterFactory tf = new TwitterFactory (cb.build());
