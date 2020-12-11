@@ -11,10 +11,10 @@ public class TwitterKey implements Serializable{
 	private Twitter getTwitterConfiguration() {
         ConfigurationBuilder cb = new ConfigurationBuilder()
                 .setDebugEnabled(true)
-                .setOAuthConsumerKey("EACUFJQ17VqtBYvBn7A9XPOVu")
-                .setOAuthConsumerSecret("BiQuFFO9ExD8PPM6SxBOfAwyKj3iWt2n2tIKnoaghLTghV0i80")
-                .setOAuthAccessToken("1084119416336510978-UaW8A5XWUHzdONNDJQA4f6DioYQ1uR")
-                .setOAuthAccessTokenSecret("d0cfneMgq76IHGIFUxmV91WnVUPEq1qwwESaNqaSnpzZm");
+                .setOAuthConsumerKey("*********")
+                .setOAuthConsumerSecret("*********")
+                .setOAuthAccessToken("*********")
+                .setOAuthAccessTokenSecret("*********");
 
         TwitterFactory twitterFactory = new TwitterFactory(cb.build());
         Twitter twitter = twitterFactory.getInstance();
